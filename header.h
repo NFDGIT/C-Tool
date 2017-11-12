@@ -5,3 +5,5 @@ float multiply(float a,float b);
 float devide(float a,float b);
 
 void display(const char * str);
+int connect();
+

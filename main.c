@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "header.h"
-typedef void(*func)();
+// typedef void(*func)();
 
 
 // void filefunc(){
@@ -24,7 +24,7 @@ void loopCycle(void){
     loopCycle();
     
 }
-int main(void){
+int main(int argc,char * argv[]){
 //      float * p;
 //      p = find();
 //      print(*p);
@@ -38,8 +38,8 @@ int main(void){
 
 //    printf("%f",*p);
 
- 
-    loopCycle();
+    connect();
+    // loopCycle();
     
     return 0;
 }
